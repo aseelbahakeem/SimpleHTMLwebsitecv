@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+</head>
+<body>
+     <h1>My contacts details</h1>
+     <p>My address</p>
+     <p>+966 5442454984</p>
+     <p>Myemail@gmail.com</p>
+     <hr> 
+     <!--Form in Html-->
+     <form action="mailto:aseelbahakim@gmail.com" method="post" enctype="text/plain"><!--when i hit sumbit it will go to this email-->
+        <!--Create a label to ask the user about their name-->
+        <label>Your name: </label>
+        <!--so we can store or type the information we use input-->
+        <input type="text" name="YourName" value=""> <!--type is text because we want a textbox so the user can type his/her name-->
+        <br> <!--New line-->
+        <br>
+        <label>Your E-mail: </label> 
+        <input type="email" name="YourEmail" value="">
+        <br> <!--New line-->
+        <br>
+        <label>Your Message: </label><br>
+        <!--Text area-->
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea> <!--Rows determine how long my text area will be and col determine how wide it will be-->
+        <br> <!--New line-->
+        <br>
+        <label>Do you want to sign up to the E-mail list?</label> 
+        <input type="checkbox" name="" value=""><br>
+
+        <input type="submit" name=""> <!--type is submit-->
+     </form> 
+</body>
+</html>
